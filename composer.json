@@ -1,0 +1,28 @@
+{
+    "name": "isadmin/think-jinritemai",
+    "description": "今日特卖SDK for thinkphp v6",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "isadmin",
+            "email": "dev@isadmin.cn"
+        }
+    ],
+    "require": {
+        "isadmin/jinritemai": "^1.0",
+        "topthink/framework": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "isadmin\\jinritemai\\" : "src"
+        }
+    },
+    "extra": {
+        "think": {
+            "config": {
+                "jinritemai": "config/jinritemai.php"
+            }
+        }
+    }
+}
