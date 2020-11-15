@@ -246,16 +246,16 @@
         },
         {
             "name": "isadmin/jinritemai",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/isadmincn/jinritemai.git",
-                "reference": "3f418adebc19934609a45fca845084485e6f602c"
+                "reference": "38e43d624bb267044615b7a3f78aac2930bdc820"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/isadmincn/jinritemai/zipball/3f418adebc19934609a45fca845084485e6f602c",
-                "reference": "3f418adebc19934609a45fca845084485e6f602c",
+                "url": "https://api.github.com/repos/isadmincn/jinritemai/zipball/38e43d624bb267044615b7a3f78aac2930bdc820",
+                "reference": "38e43d624bb267044615b7a3f78aac2930bdc820",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -265,13 +265,18 @@
                 ]
             },
             "require": {
-                "guzzlehttp/guzzle": "^7.2"
+                "guzzlehttp/guzzle": "^7.2",
+                "php": ">=7.2",
+                "pimple/pimple": "^3.3"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "isadmin\\jinritemai\\": "src"
-                }
+                    "isadmin\\Jinritemai\\": "src"
+                },
+                "files": [
+                    "src/helper.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -283,8 +288,12 @@
                     "email": "dev@isadmin.cn"
                 }
             ],
-            "description": "jinritemai sdk",
-            "time": "2020-10-24T14:56:02+00:00"
+            "description": "今日特卖sdk",
+            "keywords": [
+                "jinritemai",
+                "sdk"
+            ],
+            "time": "2020-11-15T15:39:28+00:00"
         },
         {
             "name": "league/flysystem",
@@ -492,6 +501,62 @@
                 }
             ],
             "time": "2020-10-18T11:50:25+00:00"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "e55d12f9d6a0e7f9c85992b73df1267f46279930"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/e55d12f9d6a0e7f9c85992b73df1267f46279930",
+                "reference": "e55d12f9d6a0e7f9c85992b73df1267f46279930",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": "^7.2.5",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^3.4|^4.4|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "https://pimple.symfony.com",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2020-03-03T09:12:48+00:00"
         },
         {
             "name": "psr/cache",
@@ -866,16 +931,16 @@
         },
         {
             "name": "topthink/framework",
-            "version": "v6.0.4",
+            "version": "v6.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "4b252d78562d4a51a501651f837c26cb9d91624f"
+                "reference": "85625d984f5c96699dc27d384869f206c3aec1cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/4b252d78562d4a51a501651f837c26cb9d91624f",
-                "reference": "4b252d78562d4a51a501651f837c26cb9d91624f",
+                "url": "https://api.github.com/repos/top-think/framework/zipball/85625d984f5c96699dc27d384869f206c3aec1cc",
+                "reference": "85625d984f5c96699dc27d384869f206c3aec1cc",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -929,7 +994,7 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2020-09-29T02:19:59+00:00"
+            "time": "2020-10-26T07:18:00+00:00"
         },
         {
             "name": "topthink/think-helper",
