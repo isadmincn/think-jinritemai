@@ -246,16 +246,16 @@
         },
         {
             "name": "isadmin/jinritemai",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/isadmincn/jinritemai.git",
-                "reference": "38e43d624bb267044615b7a3f78aac2930bdc820"
+                "reference": "31574bb790f89c83cabe6d947572a1f489029bce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/isadmincn/jinritemai/zipball/38e43d624bb267044615b7a3f78aac2930bdc820",
-                "reference": "38e43d624bb267044615b7a3f78aac2930bdc820",
+                "url": "https://api.github.com/repos/isadmincn/jinritemai/zipball/31574bb790f89c83cabe6d947572a1f489029bce",
+                "reference": "31574bb790f89c83cabe6d947572a1f489029bce",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -293,7 +293,7 @@
                 "jinritemai",
                 "sdk"
             ],
-            "time": "2020-11-15T15:39:28+00:00"
+            "time": "2020-11-15T16:03:55+00:00"
         },
         {
             "name": "league/flysystem",

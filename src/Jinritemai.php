@@ -1,7 +1,7 @@
 <?php
 namespace isadmin\ThinkJrtm;
 
-use isadmin\jinritemai\Application;
+use isadmin\Jinritemai\Application;
 
 class Jinritemai
 {
