@@ -3,10 +3,10 @@ namespace isadmin\ThinkJrtm;
 
 use isadmin\Jinritemai\Application;
 
-class Jinritemai
+class Jinritemai extends Application
 {
-    public static function instance()
+    public function __construct()
     {
-        return Application::make(config('jinritemai'));
+        parent::__construct(config('jinritemai'));
     }
 }

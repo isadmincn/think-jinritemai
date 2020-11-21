@@ -10,14 +10,14 @@ composer require isadmin/think-jinritemai
 use isadmin\ThinkJrtm\Jinritemai;
 
 // 获取当前店铺信息
-Jinritemai::instance()->shop->currentShop();
+(new Jinritemai)->shop->currentShop();
 ```
 
 ## 工具型应用
 ```php
 use isadmin\ThinkJrtm\Jinritemai;
 
-Jinritemai::instance()->shop->setCode($code)->currentShop();
+(new Jinritemai)->setCode($code)->shop->currentShop();
 ```
 
 ## 更多支持的访问对象请参考[isadmin\jinritemai](https://github.com/isadmincn/jinritemai)
