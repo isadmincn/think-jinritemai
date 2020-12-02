@@ -20,6 +20,9 @@
     },
     "extra": {
         "think": {
+            "services": [
+                "isadmin\\ThinkJrtm\\Service"
+            ],
             "config": {
                 "jinritemai": "config/jinritemai.php"
             }
